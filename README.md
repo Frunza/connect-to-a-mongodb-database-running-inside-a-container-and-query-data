@@ -9,12 +9,12 @@ If you have a running container with a `MongoDB` database how can you query some
 Let's assume that your container is named *myContainer*.
 
 1) Access the container
-To access the runing cotnainer, run the following command:
+To access the running container, run the following command:
 ```sh
 docker exec -it myContainer /bin/sh
 ```
 
-Now you need to install appropiate tools that allow you to query the `MongoDB` database.
+Now you need to install appropriate tools that allow you to query the `MongoDB` database.
 
 2) Add MongoDB GPG Key
 Ensures the MongoDB package's integrity and authenticity by importing the GPG key with the following command:
